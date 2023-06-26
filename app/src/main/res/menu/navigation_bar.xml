@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:backgroundTint="#C76F16">
+
+    <item android:title="Home"
+        android:icon="@drawable/home_vector"
+        android:id="@+id/home_nav"/>
+    <item android:title="Upload"
+        android:icon="@drawable/upload_vector"
+        android:id="@+id/upload_nav"/>
+    <item android:title="Profile"
+        android:icon="@drawable/profile_vector"
+        android:id="@+id/profile_nav"/>
+</menu>

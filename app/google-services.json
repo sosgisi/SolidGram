@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "455926961943",
+    "firebase_url": "https://bismillah-857de-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bismillah-857de",
+    "storage_bucket": "bismillah-857de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455926961943:android:a158d440e56a43118f8952",
+        "android_client_info": {
+          "package_name": "com.example.bismillah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455926961943-e8cqgjp5ftnp0jrc0u7v0fo1cg4pfan0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgmV-tlI6wtv5QYtW0qFTfbOmPMWVe2_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455926961943-e8cqgjp5ftnp0jrc0u7v0fo1cg4pfan0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
