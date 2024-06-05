@@ -1,8 +1,13 @@
 package com.example.bismillah
 
+import android.app.ActivityOptions
 import android.content.Intent
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import com.example.bismillah.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -11,6 +16,7 @@ class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding:ActivityLoginBinding
     private lateinit var firebaseAuth:FirebaseAuth
+//    private lateinit var image: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,6 +37,24 @@ class LoginActivity : AppCompatActivity() {
                     if(it.isSuccessful){
                         val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
+
+//                        val pairs: Array<Pair<View, String>> = arrayOf(
+//                            Pair(image, "logo_image"),
+//                            Pair(logo, "logo_text")
+//                        )
+//                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//                            val options: ActivityOptions = ActivityOptions.makeSceneTransitionAnimation(SplashScreenActivity.this, *pairs)
+//                            startActivity(intent, options.toBundle())
+//                        }
+
+//                        Pair[] pairs = new Pair[2];
+//                        pairs[0] = new Pair<View, String>(binding.image, "logo_image");
+//                        pairs[1] = new Pair<View, String>(binding.logo, "logo_text");
+//                        if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+//                            ActivityOptions options = ActivityOptions . makeSceneTransitionAnimation (this, pairs);
+//                            startActivity(intent, options.toBundle())
+//                        }
+
                     }else{
                         Toast.makeText(this, "Incorrect email address or password", Toast.LENGTH_SHORT).show()
                     }
