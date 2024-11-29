@@ -1,3 +1,3 @@
 # SOLIDGRAM
 
-SolidGram adalah aplikasi sosial media yang menyerupai instagram yang saya buat menggunakan bahasa pemrograman kotlin di platform android studio, sebagai tugas akhir salah satu mata kuliah di Universitas Yarsi pada semester 4.
+SolidGram is a social media application similar to Instagram, developed using the Kotlin programming language on the Android Studio platform. It was created as a final project for one of my courses at Universitas YARSI in the 4th semester.
